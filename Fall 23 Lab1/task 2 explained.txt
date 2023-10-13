@@ -1,0 +1,5 @@
+Generally bubble sort runs on O(n^2) time complexity. 
+if the data is already sorted then it will run on O(n) time complexity, 
+which is known as best case scenerio. Hence to achieve O(n) time complexity, 
+we can add a flag to check if the data is already sorted or not. 
+If the data is already sorted then we can break the loop and return the data.
