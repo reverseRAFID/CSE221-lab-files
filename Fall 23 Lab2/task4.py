@@ -1,3 +1,5 @@
+f_i = open("G:\\rafid-console\\CSE221-lab-files\\Fall 23 Lab2\\input4.txt", "r")
+f_o = open("G:\\rafid-console\\CSE221-lab-files\\Fall 23 Lab2\\output4.txt", "w")
 def interval(starttime, finishtime):
 
     index = list(range(len(starttime)))   # index for n items
@@ -27,13 +29,8 @@ def schedule_remover(set):
                 del end[x]
                 cend += 1
                 break
-           
-        
 
-
-f_i = open("G:\\rafid-console\\CSE221-lab-files\\Fall 23 Lab2\\input4.txt", "r")
-f_o = open("G:\\rafid-console\\CSE221-lab-files\\Fall 23 Lab2\\output4.txt", "w")
-
+            
 a, b = f_i.readline().split()
 a, b = int(a), int(b)
 
