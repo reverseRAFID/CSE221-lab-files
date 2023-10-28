@@ -1,5 +1,5 @@
-f_input = open("D:\\rafid-console\\CSE221-lab-files\\Fall 23 Lab3\\input2.txt", "r")
-f_output = open("D:\\rafid-console\\CSE221-lab-files\\Fall 23 Lab3\\output2.txt", "w")
+f_input = open("G:\\rafid-console\\CSE221-lab-files\\Fall 23 Lab3\\input2.txt", "r")
+f_output = open("G:\\rafid-console\\CSE221-lab-files\\Fall 23 Lab3\\output2.txt", "w")
 
 N = int(f_input.readline())
 arr = f_input.readline().strip().split(" ")

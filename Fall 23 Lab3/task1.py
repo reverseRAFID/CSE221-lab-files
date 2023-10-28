@@ -32,8 +32,8 @@ def mergeSort(arr):
         return merge(a1, a2)       # complete the merge function above 
     
 
-f_input = open("D:\\rafid-console\\CSE221-lab-files\\Fall 23 Lab3\\input1.txt", "r")
-f_output = open("D:\\rafid-console\\CSE221-lab-files\\Fall 23 Lab3\\output1.txt", "w")
+f_input = open("G:\\rafid-console\\CSE221-lab-files\\Fall 23 Lab3\\input1.txt", "r")
+f_output = open("G:\\rafid-console\\CSE221-lab-files\\Fall 23 Lab3\\output1.txt", "w")
 var = f_input.readline().strip()
 arr = f_input.readline().strip().split(" ")
 for i in range(len(arr)):
