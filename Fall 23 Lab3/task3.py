@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 def merge(arr, t, left, mid, right):
     i = left
     j = mid + 1
@@ -64,11 +63,3 @@ f_o.write(str(max))
     
 f_i.close()
 f_o.close()
-
-=======
-count = 0
-for i in range(n):
-  for j in range(i+1,n):
-    if H[i] > H[j]:
-      count+=1
->>>>>>> Stashed changes
